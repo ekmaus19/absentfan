@@ -1891,4 +1891,121 @@ no changes added to commit (use "git add" and/or "git commit -a")[0K
 [0K[?25h[?25l
 [0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/pcs/files-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/pcs/source-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/9D30685C/pcs/windowlayoutstate.pper.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/persistent-state.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/rmd-outputs.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/sources/prop/25E53885.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25lwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/sources/prop/70B70F52.[0K[1G[?25h[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/sources/prop/AE3143F5.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/sources/prop/INDEX.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/sources/s-37D258AF/627D9597[0K.[?25l
+[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/sources/s-37D258AF/627D9597[0K-[?25l
+contents.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/sources/s-46A606CF/2D8C84D0[0K.[?25l
+[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/9D30685C/sources/s-46A606CF/2D8C84D0[0K-[?25l
+contents.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in docs/articles/fanfiction-net-scraper.html.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in docs/index.html.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25hf[0Ki[0Kn[0Ka[0Kl[0K[24G[?25l$ git commit -m "final t[0K[?25hw[0Ke[0Ka[0Kk[0Ks[0K"[0K[?25l
+[0K[?25h[master e4bccf7] final tweaks[0K[?25l
+ 44 files changed, 2029 insertions(+), 1630 deletions(-)[0K
+ rewrite .Rproj.user/9D30685C/console06/INDEX001 (85%)[0K
+ rewrite .Rproj.user/9D30685C/sources/s-37D258AF/627D9597-contents (95%)[0K
+ rewrite .Rproj.user/shared/notebooks/E2364B5-fanfiction-net-scraper/1/s/chunks.json (90[0K%
+)[0K
+ delete mode 100644 man/hello.Rd[0K
+ rewrite tests/testthat.R (93%)[0K
+ copy .Rproj.user/9D30685C/sources/s-37D258AF/627D9597-contents => tests/testthat/test-s[0Kc
+rapeAllEntries.R (95%)[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K[23G[?25h[?25l
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0Ka[0K[?25l$ git push origin[0K[?25h[19G[?25l$ git push origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hCounting objects: 64, done.[0K[?25l
+[0K[?25hDelta compression using up to 4 threads.[0K[?25l
+Compressing objects:  59% (35/59)[0K[1G[?25hCompressing objects: 100% (59/59), done.[0K[?25l
+Writing objects:  39% (25/64)[0K[1G[?25hWriting objects: 100% (64/64), 22.31 KiB | 601.00 KiB/s, done.[0K[?25l
+Total 64 (delta 41), reused 0 (delta 0)[0K
+[0K[?25h[?25lremote: Resolving deltas:  63% (26/41)[0K[1G[?25hremote: Resolving deltas: 100% (41/41), completed with 41 local objects.[0K[?25l
+[0K[?25hTo https://github.com/ekmaus19/absentfan.git[0K[?25l
+   74af6cd..e4bccf7  master -> master[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[12G[?25l$ git pull o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git pull origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hremote: Enumerating objects: 4, done.[0K[?25l
+remote: Counting objects: 100% (4/4), done.[0K[40G[?25h[?25l
+remote: Compressing objects: 100% (3/3), done.[0K
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0[0K
+[0K[?25h[?25lUnpacking objects:  33% (1/3)[0K[1G[?25h[?25lUnpacking objects:  66% (2/3)[0K[1G[?25hUnpacking objects: 100% (3/3), done.[0K[?25l
+[0K[?25hFrom https://github.com/ekmaus19/absentfan[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+   e4bccf7..fca6282  master     -> origin/master[0K
+[0K[?25hUpdating e4bccf7..fca6282[0K[?25l
+Fast-forward[0K
+[0K[?25h README.md | 12 [0;32m++++++++++++[0m[0K[?25l
+ 1 file changed, 12 insertions(+)[0K
+ create mode 100644 README.md[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/console06/291D0CD9[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/prop/25E53885[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/prop/AE3143F5[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/prop/INDEX[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/s-46A606CF/2D8C84D0[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/s-46A606CF/2D8C84D0-contents[0m[0K
+        [0;31mmodified:   DESCRIPTION[0m[0K
+        [0;31mmodified:   README.md[0m[0K
+        [0;31mmodified:   docs/articles/fanfiction-net-scraper.html[0m[0K
+        [0;31mmodified:   docs/articles/index.html[0m[0K
+        [0;31mmodified:   docs/authors.html[0m[0K
+        [0;31mmodified:   docs/index.html[0m[0K
+        [0;31mmodified:   docs/reference/all_entries.html[0m[0K
+        [0;31mmodified:   docs/reference/getAllChapters.html[0m[0K
+        [0;31mmodified:   docs/reference/getChapter.html[0m[0K
+        [0;31mmodified:   docs/reference/getEntries.html[0m[0K
+        [0;31mmodified:   docs/reference/getFullStory.html[0m[0K
+        [0;31mmodified:   docs/reference/getPages.html[0m[0K
+        [0;31mmodified:   docs/reference/getPagesTitle.html[0m[0K
+        [0;31mmodified:   docs/reference/getTitles.html[0m[0K
+        [0;31mmodified:   docs/reference/getUrl.html[0m[0K
+        [0;31mmodified:   docs/reference/getUrlTitle.html[0m[0K
+        [0;31mmodified:   docs/reference/index.html[0m[0K
+        [0;31mmodified:   docs/reference/scrapeAllEntries.html[0m[0K
+        [0;31mmodified:   docs/reference/storyPrint.html[0m[0K
+        [0;31mmodified:   docs/reference/typeMedia.html[0m[0K
+        [0;31mmodified:   docs/reference/updateTypeMedia.html[0m[0K
+        [0;31mmodified:   vignettes/fanfiction-net-scraper.Rmd[0m[0K
+[0K
+no changes added to commit (use "git add" and/or "git commit -a")[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25h[?25li[0K[4G[?25h[5G[?25l$ git[0K[?25h[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
 [0K[?25h

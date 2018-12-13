@@ -10,3 +10,4 @@ if (!require(devtools)) {
 }
 devtools::install_github("ekmaus19/absentfan", build_vignettes = TRUE)
 ```
+Source code can be found [here](https://github.com/ekmaus19/absentfan/tree/master).

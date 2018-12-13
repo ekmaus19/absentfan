@@ -1,5 +1,5 @@
 ---
-title: "Absentfan"
+title: "absentfan"
 author: "Elizaveta Kravchenko and Griffin Barich"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
