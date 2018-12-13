@@ -4,7 +4,7 @@ Title: Fanfiction.net Scraper
 Version: 0.1.0
 Authors@R: c(
     person("Elizaveta", "Kravchenko", email="ekravchenko@wesleyan.edu", role=c("aut", "cre")),
-    person("Griffin", "Barich", email="gbarich@wesleyan.edu", role=c("aut", "cre"))
+    person("Griffin", "Barich", email="gbarich@wesleyan.edu", role=c("aut"))
   )
 Description: A package to scrape entries from fanfiction.net. Allows general
     fandom scraping and chapter scraping.

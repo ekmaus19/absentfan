@@ -12,13 +12,15 @@ vignette: >
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  warning=F,
+  message=F
 )
 ```
 
 `absetfan` is a comprehensive web scraping tool for retrieval of information from the site fanfiction.net. "Fanfiction" is a storyform where fans of a particular "fandom," or narrative from one of several media types (ex, books, movies, comics, etc), create written pieces using details from those original narratives. These details can be as specific or general as the fan ordains; the stories could involve the same setting as the original fandom, the same world conditions (ex, include magic), the same or similar characters, and any permutation of associated characteristics. Writers range from novice to highly skilled. 
 
-The authors of this package see fanfiction.net as a potentially rich and underutilized text data source; operating since 1998 with a community of over 10 million registered users, the site hosts a substantial volume of curious and slightly unorthodox information [^https://en.wikipedia.org/wiki/FanFiction.Net]. While its competitor, Archive of Our Own, has dethroned fanfiction.net as the primary fanfiction resource, access to individual fandom story listings may still offer insight to current usages of the storytelling platform, as well as shifting popularities of different narratives (through exploration of reviews, post numbers, follows, favorites, and so on). Working with the raw data presented within story chapters could facilitate practice in text mining, or reveal patterns in narrative construction. Tracking such patterns could offer analysis relevant to a greater cultural context, as narratives like *50 Shades of Gray* originally got their beginnings from fan written work (in this case, a *Twilight* fanfiction). 
+The authors of this package see fanfiction.net as a potentially rich and underutilized text data source; operating since 1998 with a community of over 10 million registered users, the site hosts a substantial volume of curious and slightly unorthodox information ([link](https://en.wikipedia.org/wiki/FanFiction.Net)). While its competitor, Archive of Our Own, has dethroned fanfiction.net as the primary fanfiction resource, access to individual fandom story listings may still offer insight to current usages of the storytelling platform, as well as shifting popularities of different narratives (through exploration of reviews, post numbers, follows, favorites, and so on). Working with the raw data presented within story chapters could facilitate practice in text mining, or reveal patterns in narrative construction. Tracking such patterns could offer analysis relevant to a greater cultural context, as narratives like *50 Shades of Gray* originally got their beginnings from fan written work (in this case, a *Twilight* fanfiction). 
 
 Overall, `absentfan` may offer access to a plethora of user queried data excellent for use in exploring R base functions and text mining techniques. 
 
@@ -33,7 +35,7 @@ library(absentfan)
 
 ### 1. Scrape all of the entries in a particular fandom
 
-The equivalent of going to https://www.fanfiction.net/movie/Zoolander/ and copying all of the listed entries with their associated information. In accordance with the fanfiction.net terms of use, the scraper works as "human speed"; that is, each page is scraped at the rate of one second per page. 
+The equivalent of going to https://www.fanfiction.net/movie/Zoolander/ and copying all of the listed entries with their associated information. In accordance with the fanfiction.net terms of use, the scraper works as "human speed;" that is, each page is scraped at the rate of one second per page. 
 
 ```{r}
 zool <- scrapeAllEntries("Zoolander", "movie")
@@ -62,8 +64,8 @@ head(almost)
 
 For users interested in simply reading the stories, there is an option to generate an html output of the scraped narrative. Simply call the story the same way as for the chapter scraper, but within the print function. 
 
-```{r}
-# storyPrint("Steven Universe", "cartoon", "Gem Funeral")
+```{r, eval=F}
+storyPrint("Steven Universe", "cartoon", "Gem Funeral")
 ```
 
 

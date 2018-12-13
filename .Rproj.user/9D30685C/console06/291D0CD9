@@ -1365,4 +1365,530 @@ $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl
 [0K[?25h[?25l
 [0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ g[0K[3G[?25h[4G[?25l$ gi[0K[?25ht[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[11G[?25h[12G[?25l
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hit[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Changes to be committed:[0K
+  (use "git reset HEAD <file>..." to unstage)[0K
+[0K
+        [0;32mmodified:   .Rproj.user/9D30685C/console06/291D0CD9[0m[0K
+        [0;32mmodified:   .Rproj.user/9D30685C/console06/INDEX001[0m[0K
+        [0;32mmodified:   .Rproj.user/9D30685C/pcs/files-pane.pper[0m[0K
+        [0;32mmodified:   .Rproj.user/9D30685C/pcs/source-pane.pper[0m[0K
+        [0;32mmodified:   .Rproj.user/9D30685C/pcs/windowlayoutstate.pper[0m[0K
+        [0;32mmodified:   .Rproj.user/9D30685C/sources/prop/AE3143F5[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/112C4D9F-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/121F7C88-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/160A7AA7-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/167CC84E-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/1755B6B7-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/1BC144AA-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/1D9BB584-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/1F2EBE31-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/217E9787-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/22C4D0D6-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/230A2853-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/2857FD4B-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/28C3EC6A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/2AA1EC0A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/2B66E826-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/2CF1B7A4-contents[0m[0K
+        [0;32mmodified:   .Rproj.user/9D30685C/sources/s-46A606CF/2D8C84D0[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/2D9D6642-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/2EDE6528-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/2EF298D4-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/2F0BB7E6-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/2FC5AB53-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/33C966E8-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/34F5F1FD-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/35C46718-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/3D159D66-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/3D95EA51-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/40C148FF-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/47650C43-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/4A702E95-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/4D8AA6A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/4EED805C-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/52FE8172-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/53F791F7-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/54C225AC-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/54DBF1-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/550554B0-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/57326BF2-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/5F5AA33B-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/5FADE9F-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/61BD4EBD-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/62782A74-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/6714ED20-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/671BE3B-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/6A83AD79-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/6D308FFA-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/6DE17676-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/740F9344-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/7487CA74-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/748C7C27-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/76574D5-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/76DA956C-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/7B1C2169-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/7C2C6067-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/7D12BA31-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/7E6A0578-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/80C4CEC2-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/813A2EDE-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/81FFB838-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/82182E9C-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/82F48B62-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/833F8451-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/84824BB4-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/866979CC-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/8738492D-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/8A15AFCE-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/8BBD92BC-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/8BEABFE1-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/8C99D21D-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/8EA04CC0-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/93FD334E-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/94E36191-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/9A1E09CE-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/9C4BB5BC-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/9F4C61AB-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/A2B037A4-contents[0m[0K[9G[?25h[?25l
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/A2F0628-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/A4D17CA4-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/A5E5E457-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/A9925E3A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/A9B3D9C2-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/AA546658-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/AD052D7A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/B0545E6A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/B15299A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/B27C6269-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/B4522C5C-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/B8609120-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/BB2481A6-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/BC8D0BC2-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/BF2BE19C-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/C11388CA-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/C1ECEF64-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/C3241D02-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/C41890FB-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/C6D7A339-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/C7E70056-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/CBA82E9E-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/CCB9B91C-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/D22F050A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/D4A23F54-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/D5F27222-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/D6514CC7-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/D69A5185-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/D6B8D85A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/D8D16CDB-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/DAEF2E1-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/DB971BD6-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/DC7FA0D0-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/DD25FB2E-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/DED506F3-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/EA869C78-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/ECA73B3B-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/EE2655B0-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F21E939B-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F25FBD48-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F2612A54-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F2C42FD8-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F4953A83-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F598FAF7-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F5A24B5-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F5BF95E4-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F713469-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F772E653-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/F8E59BD8-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/FA923D6-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/FB86C5BA-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/FD47E52A-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/FE010253-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/FEEF593D-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/9D30685C/sources/s-46A606CF/FFBD8846-contents[0m[0K
+        [0;32mmodified:   .Rproj.user/shared/notebooks/E2364B5-fanfiction-net-scraper/1/9D30685C46A606CF/chunks[0K.
+json[0m[0K
+        [0;32mmodified:   .gitignore[0m[0K
+[0K
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/console06/291D0CD9[0m[0K
+[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0K[?25l$ git co[0K[?25h[?25l$ git c[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git c[0K[?25ho[0Km[0Ki[0K[?25l$ git com[0K[?25hm[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25h[?25ls[0K[18G[?25h[19G[?25l$ git commit -m "so[0K[?25hm[0K[?25le[0K[21G[?25h[22G[23G[?25l$ git commit -m "some c[0K[?25h[?25lh[0K[24G[?25h[25G[?25l$ git commit -m "some cha[0K[?25hn[0Kge[0Ks[0K"[0K[?25l
+[0K[?25h[master 74af6cd] some changes[0K[?25l
+ 139 files changed, 1379 insertions(+), 4262 deletions(-)[0K
+ rewrite .Rproj.user/9D30685C/console06/291D0CD9 (81%)[0K
+ rewrite .Rproj.user/9D30685C/console06/INDEX001 (100%)[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/112C4D9F-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/121F7C88-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/160A7AA7-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/167CC84E-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/1755B6B7-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/1BC144AA-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/1D9BB584-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/1F2EBE31-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/217E9787-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/22C4D0D6-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/230A2853-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/2857FD4B-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/28C3EC6A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/2AA1EC0A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/2B66E826-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/2CF1B7A4-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/2D9D6642-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/2EDE6528-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/2EF298D4-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/2F0BB7E6-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/2FC5AB53-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/33C966E8-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/34F5F1FD-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/35C46718-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/3D159D66-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/3D95EA51-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/40C148FF-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/47650C43-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/4A702E95-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/4D8AA6A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/4EED805C-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/52FE8172-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/53F791F7-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/54C225AC-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/54DBF1-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/550554B0-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/57326BF2-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/5F5AA33B-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/5FADE9F-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/61BD4EBD-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/62782A74-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/6714ED20-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/671BE3B-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/6A83AD79-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/6D308FFA-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/6DE17676-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/740F9344-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/7487CA74-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/748C7C27-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/76574D5-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/76DA956C-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/7B1C2169-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/7C2C6067-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/7D12BA31-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/7E6A0578-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/80C4CEC2-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/813A2EDE-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/81FFB838-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/82182E9C-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/82F48B62-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/833F8451-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/84824BB4-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/866979CC-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/8738492D-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/8A15AFCE-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/8BBD92BC-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/8BEABFE1-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/8C99D21D-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/8EA04CC0-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/93FD334E-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/94E36191-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/9A1E09CE-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/9C4BB5BC-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/9F4C61AB-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/A2B037A4-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/A2F0628-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/A4D17CA4-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/A5E5E457-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/A9925E3A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/A9B3D9C2-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/AA546658-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/AD052D7A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/B0545E6A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/B15299A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/B27C6269-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/B4522C5C-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/B8609120-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/BB2481A6-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/BC8D0BC2-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/BF2BE19C-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/C11388CA-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/C1ECEF64-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/C3241D02-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/C41890FB-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/C6D7A339-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/C7E70056-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/CBA82E9E-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/CCB9B91C-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/D22F050A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/D4A23F54-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/D5F27222-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/D6514CC7-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/D69A5185-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/D6B8D85A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/D8D16CDB-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/DAEF2E1-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/DB971BD6-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/DC7FA0D0-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/DD25FB2E-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/DED506F3-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/EA869C78-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/ECA73B3B-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/EE2655B0-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F21E939B-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F25FBD48-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F2612A54-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F2C42FD8-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F4953A83-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F598FAF7-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F5A24B5-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F5BF95E4-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F713469-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F772E653-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/F8E59BD8-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/FA923D6-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/FB86C5BA-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/FD47E52A-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/FE010253-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/FEEF593D-contents[0K
+ delete mode 100644 .Rproj.user/9D30685C/sources/s-46A606CF/FFBD8846-contents[0K
+ rewrite .Rproj.user/shared/notebooks/E2364B5-fanfiction-net-scraper/1/9D30685C46A606CF/chunks.json (85%)[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/console06/291D0CD9[0m[0K
+[0K
+no changes added to commit (use "git add" and/or "git commit -a")[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git status[0K[?25h[?25l$ git commit -m "some changes"[0K[?25h[?25l$ git status[0K[?25h[12G[?25l$ git add .[0K[?25h[?25l$ git pull origin master[0K[?25h[?25l$ git pull[0K[?25h origin master[0K[?25l
+[0K[?25hFrom https://github.com/ekmaus19/absentfan[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+[0K[?25hfatal: refusing to merge unrelated histories[0K[?25l
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ o[0K[?25hg[0K[?25l$ o[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git push origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hTo https://github.com/ekmaus19/absentfan.git[0K[?25l
+ ! [rejected]        master -> master (non-fast-forward)[0K
+error: failed to push some refs to 'https://github.com/ekmaus19/absentfan.git'[0K
+[0K[?25hhint: Updates were rejected because the tip of your current branch is behind[0K[?25l
+hint: its remote counterpart. Integrate the remote changes (e.g.[0K
+hint: 'git pull ...') before pushing again.[0K
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l[27A  (use "git add <file>..." to update what will be[0K
+committed)[0K
+  (use "git checkout -- <file>..." to discard cha[0Kn
+ges in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/console0[0K6
+/291D0CD9[0K
+[0m[0K
+no changes added to commit (use "git add" and/or [0K"
+git commit -a")[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced[0K_
+r/FINAL/absentfan[0;36m (master)[0K
+[0m$ git pull origin master[0K
+From https://github.com/ekmaus19/absentfan[0K
+ * branch            master     -> FETCH_HEAD[0K
+fatal: refusing to merge unrelated histories[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced[0K_
+r/FINAL/absentfan[0;36m (master)[0K
+[0m$ git push origin master[0K
+To https://github.com/ekmaus19/absentfan.git[0K
+ ! [rejected]        master -> master (non-fast-f[0Ko
+rward)[0K
+error: failed to push some refs to 'https://githu[0Kb
+.com/ekmaus19/absentfan.git'[0K
+hint: Updates were rejected because the tip of yo[0Ku
+r current branch is behind[0K
+hint: its remote counterpart. Integrate the remot[0Ke
+ changes (e.g.[0K
+hint: 'git pull ...') before pushing again.[0K
+hint: See the 'Note about fast-forwards' in 'git [0Kp
+ush --help' for details.[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced[0K_
+r/FINAL/absentfan[0;36m (master)[0K
+[0m$[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced[0K_
+r/FINAL/absentfan[0;36m (master)[0K
+[0m$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[7G[?25h[8G[?25l$ git pu[0K[8G[?25h[9G[?25l$ git pus[0K[?25hh[0K[12G[?25l$ git push -[0K[?25hf[0K[15G[?25l$ git push -f o[0K[?25hg[0K[?25l$ git push -f o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[22G[?25l$ git push -f origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hCounting objects: 243, done.[0K[?25l
+[0K[?25hDelta compression using up to 4 threads.[0K[?25l
+Compressing objects:  25% (53/212)[0K[2G[?25h[?25lCompressing objects:  79% (168/212)[0K[2G[?25h[?25lCompressing objects:  94% (200/212)[0K[1G[?25hCompressing objects: 100% (212/212), done.[0K[?25l
+Writing objects:  47% (115/243)[0K[1G[?25h[?25lWriting objects:  48% (117/243)[0K[1G[?25h[?25lWriting objects:  57% (139/243)[0K[1G[?25h[?25lWriting objects:  58% (141/243)[0K[1G[?25h[?25lWriting objects:  97% (236/243)[0K[1G[?25hWriting objects: 100% (243/243), 455.05 KiB | 2.8[0K3[?25l
+ MiB/s, done.[0K
+Total 243 (delta 42), reused 0 (delta 0)[0K
+[0K[?25h[?25lremote: Resolving deltas: 100% (42/42), done.[0K[1G[?25h[?25l
+[0K[?25h[?25lTo https://github.com/ekmaus19/absentfan.git[0K[1G[?25h[?25l
+ + ae44936...74af6cd master -> master (forced upd[0Ka
+te)[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced[0K_
+r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l[28Ahint: Updates were rejected because the tip of your[0K
+current branch is behind[0K
+hint: its remote counterpart. Integrate the remote [0Kc
+hanges (e.g.[0K
+hint: 'git pull ...') before pushing again.[0K
+hint: See the 'Note about fast-forwards' in 'git pu[0Ks
+h --help' for details.[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r[0K/
+FINAL/absentfan[0;36m (master)[0K
+[0m$[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r[0K/
+FINAL/absentfan[0;36m (master)[0K
+[0m$ git push -f origin master[0K
+Counting objects: 243, done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (212/212), done.[0K
+Writing objects: 100% (243/243), 455.05 KiB | 2.83 [0KM
+iB/s, done.[0K
+Total 243 (delta 42), reused 0 (delta 0)[0K
+remote: Resolving deltas: 100% (42/42), done.[0K
+To https://github.com/ekmaus19/absentfan.git[0K
+ + ae44936...74af6cd master -> master (forced updat[0Ke
+)[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r[0K/
+FINAL/absentfan[0;36m (master)[0K
+[0m$[0K[3G[?25h[?25l[28Ahint: Updates were rejected because the tip of your c[0Ku
+rrent branch is behind[0K
+hint: its remote counterpart. Integrate the remote ch[0Ka
+nges (e.g.[0K
+hint: 'git pull ...') before pushing again.[0K
+hint: See the 'Note about fast-forwards' in 'git push[0K
+--help' for details.[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/F[0KI
+NAL/absentfan[0;36m (master)[0K
+[0m$[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/F[0KI
+NAL/absentfan[0;36m (master)[0K
+[0m$ git push -f origin master[0K
+Counting objects: 243, done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (212/212), done.[0K
+Writing objects: 100% (243/243), 455.05 KiB | 2.83 Mi[0KB
+/s, done.[0K
+Total 243 (delta 42), reused 0 (delta 0)[0K
+remote: Resolving deltas: 100% (42/42), done.[0K
+To https://github.com/ekmaus19/absentfan.git[0K
+ + ae44936...74af6cd master -> master (forced update)[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/F[0KI
+NAL/absentfan[0;36m (master)[0K
+[0m$[0K
+[0K[1A[3G[?25h[?25l[27Ahint: Updates were rejected because the tip of your current branch is behind[0K
+hint: its remote counterpart. Integrate the remote changes (e.g.[0K
+hint: 'git pull ...') before pushing again.[0K
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0K
+[0m$[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0K
+[0m$ git push -f origin master[0K
+Counting objects: 243, done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (212/212), done.[0K
+Writing objects: 100% (243/243), 455.05 KiB | 2.83 MiB/s, done.[0K
+Total 243 (delta 42), reused 0 (delta 0)[0K
+remote: Resolving deltas: 100% (42/42), done.[0K
+To https://github.com/ekmaus19/absentfan.git[0K
+ + ae44936...74af6cd master -> master (forced update)[0K
+[0K
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0K
+[0m$[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+]0;:/c/Users/Liza/Desktop/Fall2018/advanced_r/FINAL/absentfan[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l[1A[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0K
+[0m$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Changes not staged for commit:[0K
+  (use "git add/rm <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/console06/291D0CD9[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/console06/INDEX001[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/pcs/files-pane.pper[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/pcs/source-pane.pper[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/pcs/windowlayoutstate.pper[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/persistent-state[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/rmd-outputs[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/prop/25E53885[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/prop/70B70F52[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/prop/AE3143F5[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/prop/INDEX[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/s-37D258AF/627D9597[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/s-37D258AF/627D9597-contents[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/s-46A606CF/2D8C84D0[0m[0K
+        [0;31mmodified:   .Rproj.user/9D30685C/sources/s-46A606CF/2D8C84D0-contents[0m[0K
+        [0;31mmodified:   .Rproj.user/shared/notebooks/E2364B5-fanfiction-net-scraper/1/9D3068[0K5
+C46A606CF/chunks.json[0m[0K
+        [0;31mmodified:   .Rproj.user/shared/notebooks/E2364B5-fanfiction-net-scraper/1/s/chun[0Kk
+s.json[0m[0K
+        [0;31mmodified:   .Rproj.user/shared/notebooks/paths[0m[0K
+        [0;31mmodified:   DESCRIPTION[0m[0K
+        [0;31mmodified:   docs/articles/fanfiction-net-scraper.html[0m[0K
+        [0;31mmodified:   docs/articles/index.html[0m[0K
+        [0;31mmodified:   docs/authors.html[0m[0K
+        [0;31mmodified:   docs/index.html[0m[0K
+        [0;31mmodified:   docs/pkgdown.yml[0m[0K
+        [0;31mmodified:   docs/reference/all_entries.html[0m[0K
+        [0;31mmodified:   docs/reference/getAllChapters.html[0m[0K
+        [0;31mmodified:   docs/reference/getChapter.html[0m[0K
+        [0;31mmodified:   docs/reference/getEntries.html[0m[0K
+        [0;31mmodified:   docs/reference/getFullStory.html[0m[0K
+        [0;31mmodified:   docs/reference/getPages.html[0m[0K
+        [0;31mmodified:   docs/reference/getPagesTitle.html[0m[0K
+        [0;31mmodified:   docs/reference/getTitles.html[0m[0K
+        [0;31mmodified:   docs/reference/getUrl.html[0m[0K
+        [0;31mmodified:   docs/reference/getUrlTitle.html[0m[0K
+        [0;31mmodified:   docs/reference/index.html[0m[0K
+        [0;31mmodified:   docs/reference/scrapeAllEntries.html[0m[0K
+        [0;31mmodified:   docs/reference/storyPrint.html[0m[0K
+        [0;31mmodified:   docs/reference/typeMedia.html[0m[0K
+        [0;31mmodified:   docs/reference/updateTypeMedia.html[0m[0K
+        [0;31mmodified:   inst/templateStory.txt[0m[0K
+        [0;31mdeleted:    man/hello.Rd[0m[0K
+        [0;31mmodified:   tests/testthat.R[0m[0K
+        [0;31mmodified:   vignettes/fanfiction-net-scraper.Rmd[0m[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31mtests/testthat/[0m[0K
+[0K
+no changes added to commit (use "git add" and/or "git commit -a")[0K
+[0K[?25h[?25l
+[0;32mLiza@LAPTOP-NO8LN76P [0;35m [0;33m~/Desktop/Fall2018/advanced_r/FINAL/absentfan[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
 [0K[?25h

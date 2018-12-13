@@ -54,9 +54,6 @@
 <li>
       <a href="../articles/fanfiction-net-scraper.html">Absentfan</a>
     </li>
-    <li>
-      <a href="../articles/test.html">Vignette Title</a>
-    </li>
   </ul>
 </li>
       </ul>
@@ -85,38 +82,18 @@
     
     
 <p><code>absetfan</code> is a comprehensive web scraping tool for retrieval of information from the site fanfiction.net. “Fanfiction” is a storyform where fans of a particular “fandom,” or narrative from one of several media types (ex, books, movies, comics, etc), create written pieces using details from those original narratives. These details can be as specific or general as the fan ordains; the stories could involve the same setting as the original fandom, the same world conditions (ex, include magic), the same or similar characters, and any permutation of associated characteristics. Writers range from novice to highly skilled.</p>
-<p>The authors of this package see fanfiction.net as a potentially rich and underutilized text data source; operating since 1998 with a community of over 10 million registered users, the site hosts a substantial volume of curious and slightly unorthodox information [^https://en.wikipedia.org/wiki/FanFiction.Net]. While its competitor, Archive of Our Own, has dethroned fanfiction.net as the primary fanfiction resource, access to individual fandom story listings may still offer insight to current usages of the storytelling platform, as well as shifting popularities of different narratives (through exploration of reviews, post numbers, follows, favorites, and so on). Working with the raw data presented within story chapters could facilitate practice in text mining, or reveal patterns in narrative construction. Tracking such patterns could offer analysis relevant to a greater cultural context, as narratives like <em>50 Shades of Gray</em> originally got their beginnings from fan written work (in this case, a <em>Twilight</em> fanfiction).</p>
+<p>The authors of this package see fanfiction.net as a potentially rich and underutilized text data source; operating since 1998 with a community of over 10 million registered users, the site hosts a substantial volume of curious and slightly unorthodox information (<a href="https://en.wikipedia.org/wiki/FanFiction.Net">link</a>). While its competitor, Archive of Our Own, has dethroned fanfiction.net as the primary fanfiction resource, access to individual fandom story listings may still offer insight to current usages of the storytelling platform, as well as shifting popularities of different narratives (through exploration of reviews, post numbers, follows, favorites, and so on). Working with the raw data presented within story chapters could facilitate practice in text mining, or reveal patterns in narrative construction. Tracking such patterns could offer analysis relevant to a greater cultural context, as narratives like <em>50 Shades of Gray</em> originally got their beginnings from fan written work (in this case, a <em>Twilight</em> fanfiction).</p>
 <p>Overall, <code>absentfan</code> may offer access to a plethora of user queried data excellent for use in exploring R base functions and text mining techniques.</p>
 <p>For more on fanfiction, we recommend you look here(<a href="https://www.newyorker.com/books/page-turner/the-promise-and-potential-of-fan-fiction">via</a>)</p>
 <div id="featured-functionality" class="section level2">
 <h2 class="hasAnchor">
 <a href="#featured-functionality" class="anchor"></a>Featured Functionality</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(absentfan)
-<span class="co">#&gt; Warning: replacing previous import 'dplyr::intersect' by</span>
-<span class="co">#&gt; 'lubridate::intersect' when loading 'absentfan'</span>
-<span class="co">#&gt; Warning: replacing previous import 'dplyr::union' by 'lubridate::union'</span>
-<span class="co">#&gt; when loading 'absentfan'</span>
-<span class="co">#&gt; Warning: replacing previous import 'dplyr::setdiff' by 'lubridate::setdiff'</span>
-<span class="co">#&gt; when loading 'absentfan'</span>
-<span class="co">#&gt; Warning: replacing previous import 'dplyr::explain' by 'qdapRegex::explain'</span>
-<span class="co">#&gt; when loading 'absentfan'</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(absentfan)</code></pre></div>
 <div id="scrape-all-of-the-entries-in-a-particular-fandom" class="section level3">
 <h3 class="hasAnchor">
 <a href="#scrape-all-of-the-entries-in-a-particular-fandom" class="anchor"></a>1. Scrape all of the entries in a particular fandom</h3>
-<p>The equivalent of going to <a href="https://www.fanfiction.net/movie/Zoolander/" class="uri">https://www.fanfiction.net/movie/Zoolander/</a> and copying all of the listed entries with their associated information. In accordance with the fanfiction.net terms of use, the scraper works as “human speed”; that is, each page is scraped at the rate of one second per page.</p>
+<p>The equivalent of going to <a href="https://www.fanfiction.net/movie/Zoolander/" class="uri">https://www.fanfiction.net/movie/Zoolander/</a> and copying all of the listed entries with their associated information. In accordance with the fanfiction.net terms of use, the scraper works as “human speed;” that is, each page is scraped at the rate of one second per page.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">zool &lt;-<span class="st"> </span><span class="kw"><a href="../reference/scrapeAllEntries.html">scrapeAllEntries</a></span>(<span class="st">"Zoolander"</span>, <span class="st">"movie"</span>)
-<span class="co">#&gt; </span>
-<span class="co">#&gt; Attaching package: 'dplyr'</span>
-<span class="co">#&gt; The following object is masked from 'package:qdapRegex':</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt;     explain</span>
-<span class="co">#&gt; The following objects are masked from 'package:stats':</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt;     filter, lag</span>
-<span class="co">#&gt; The following objects are masked from 'package:base':</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt;     intersect, setdiff, setequal, union</span>
-<span class="co">#&gt; Loading required package: xml2</span>
 <span class="kw">head</span>(zool)
 <span class="co">#&gt;                            name         author</span>
 <span class="co">#&gt; 1   Toasting Away the Bad Times       KatLeePT</span>
@@ -188,7 +165,7 @@ zool
 <h3 class="hasAnchor">
 <a href="#create-a-readable-html-output-of-the-scraped-narrative" class="anchor"></a>3. Create a readable html output of the scraped narrative</h3>
 <p>For users interested in simply reading the stories, there is an option to generate an html output of the scraped narrative. Simply call the story the same way as for the chapter scraper, but within the print function.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># storyPrint("Steven Universe", "cartoon", "Gem Funeral")</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/storyPrint.html">storyPrint</a></span>(<span class="st">"Steven Universe"</span>, <span class="st">"cartoon"</span>, <span class="st">"Gem Funeral"</span>)</code></pre></div>
 </div>
 </div>
   </div>

@@ -3,5 +3,4 @@ pkgdown: 1.1.0
 pkgdown_sha: ~
 articles:
   fanfiction-net-scraper: fanfiction-net-scraper.html
-  test: test.html
 

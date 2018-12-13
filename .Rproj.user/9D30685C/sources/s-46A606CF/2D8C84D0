@@ -7,14 +7,14 @@
     "folds" : "",
     "hash" : "0",
     "id" : "2D8C84D0",
-    "lastKnownWriteTime" : 1544685406,
-    "last_content_update" : 1544714696933,
+    "lastKnownWriteTime" : 1544716626,
+    "last_content_update" : 1544716626485,
     "path" : "C:/Users/Liza/Desktop/Fall2018/advanced_r/FINAL/absentfan/vignettes/fanfiction-net-scraper.Rmd",
     "project_path" : "vignettes/fanfiction-net-scraper.Rmd",
     "properties" : {
-        "cursorPosition" : "63,0",
-        "last_setup_crc32" : "46A606CF9990457b",
-        "scrollLine" : "56"
+        "cursorPosition" : "15,12",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,

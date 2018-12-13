@@ -5,12 +5,11 @@ opts_chunk$set(comment=NA)
 opts_chunk$set(results='asis')
 ```
 
-```{r, warning=F, message=F}
+```{r, warning=F, message=F, echo=F}
 library(dplyr)
 library(stringr)
 library(absentfan)
 test <- getFullStory(xxxStory,xxxType, xxxTitle)
-# test <- getFullStory("Harry Potter","book", "Modern Marauders")
 for(i in seq_along(unique(test$chapter))) {
   cat(paste("\n","\n","\n"))
   cat(paste0("###", "Chapter ", i))
