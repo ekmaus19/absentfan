@@ -1,0 +1,5 @@
+"0","zool <- scrapeAllEntries(""Zoolander"", ""movie"")
+"
+"2","Error in rm_between(entries[1], ""\\n\t"", ""Rated:"", extract = TRUE) : 
+  could not find function ""rm_between""
+"

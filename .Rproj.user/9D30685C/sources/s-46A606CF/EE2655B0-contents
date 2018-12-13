@@ -1,0 +1,51 @@
+#' @title Anova Report
+#' @description Example of generating an HTML report from R function
+#' @details
+#' \code{anova_report} generates an HTML report describing a one-way analysis of variance.
+#' The grouping variable is coerced to be a factor.
+#' @param data frame
+#' @param x grouping variable
+#' @param y dependent variable
+#' @param browse If \code{TRUE}, use external browser
+#' @import ggplot2
+#' @import formattable
+#' @import knitr
+#' @import ggpubr
+#' @import car
+#' @export
+#' @return path to HTML file
+#' @examples
+#' # from ggplot2
+#' data(mpg, package="ggplot2")
+#' anova_report(mpg, class, cty)
+#' anova_report(mpg, class, cty, browse=TRUE)
+
+
+anova_report <- function(data, x, y, browse=FALSE){
+  # reads in x and y as if they put quote marks around them
+  data <- deparse(substitute(data))
+  x <- deparse(substitute(x))
+  y <- deparse(substitute(y))
+
+  # read template file and modify
+  report <- readLines(system.file("template.txt", package = "anovaReport")) # bring in our template
+  report <- gsub("xxxIV", x, report, fixed = TRUE) # change every instance of xxIV replace it
+  report <- gsub("xxxDV", y, report, fixed = TRUE)
+  report <- gsub("xxxData", data, report, fixed = TRUE)
+
+  # output template and render
+  tf <- tempfile(fileext = ".Rmd")
+  to <- tempfile(fileext = ".html")
+  writeLines(report, tf)
+  library(rmarkdown)
+  render(input=tf, output_format="html_document", output_file=to)
+  if (browse){
+    # this will try to make it open up on a browser (doesnt't work on MAC)
+    file.show(to)
+  } else {
+    # this is what makes it show up in the R viewer
+     viewer <- getOption("viewer")
+     viewer(to)
+  }
+  invisible(to) # returns the file path (the object to) but doesnt print it to the console
+}
