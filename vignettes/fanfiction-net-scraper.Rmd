@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-`absetfan` is a comprehensive web scraping tool for retrieval of information from the site fanfiction.net. "Fanfiction" is a storyform where fans of a particular "fandom," or narrative from one of several media types (ex, books, movies, comics, etc), create written pieces using details from those original narratives. These details can be as specific or general as the fan ordains; the stories could involve the same setting as the original fandom, the same world conditions (ex, include magic), the same or similar characters, and any permutation of associated characteristics. Writers range from novice to highly skilled. 
+`absetfan` is a comprehensive web scraping tool for retrieval of information from the site [fanfiction.net](fanfiction.net). "Fanfiction" is a storyform where fans of a particular "fandom," or narrative from one of several media types (ex, books, movies, comics, etc), create written pieces using details from those original narratives. These details can be as specific or general as the fan ordains; the stories could involve the same setting as the original fandom, the same world conditions (ex, include magic), the same or similar characters, and any permutation of associated characteristics. Writers range from novice to highly skilled. 
 
 The authors of this package see fanfiction.net as a potentially rich and underutilized text data source; operating since 1998 with a community of over 10 million registered users, the site hosts a substantial volume of curious and slightly unorthodox information ([link](https://en.wikipedia.org/wiki/FanFiction.Net)). While its competitor, Archive of Our Own, has dethroned fanfiction.net as the primary fanfiction resource, access to individual fandom story listings may still offer insight to current usages of the storytelling platform, as well as shifting popularities of different narratives (through exploration of reviews, post numbers, follows, favorites, and so on). Working with the raw data presented within story chapters could facilitate practice in text mining, or reveal patterns in narrative construction. Tracking such patterns could offer analysis relevant to a greater cultural context, as narratives like *50 Shades of Gray* originally got their beginnings from fan written work (in this case, a *Twilight* fanfiction). 
 
@@ -68,4 +68,11 @@ For users interested in simply reading the stories, there is an option to genera
 storyPrint("Steven Universe", "cartoon", "Gem Funeral")
 ```
 
+### 4. Update Repository of Story Tags
+
+This package uses a pre-scraped list of href tags from the fanfiction.net media pages to get information about stories or the stories themselves. If you feel that the fandom you are looking for is missing due to it being very recent (after 2018), use the \code{updateTypeMedia} function.
+
+```{r, eval=F}
+typeMedia <- updateTypeMedia()
+```
 
