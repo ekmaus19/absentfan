@@ -12,12 +12,12 @@ License: MIT
 Encoding: UTF-8
 LazyData: true
 Imports:
-    qdapRegex,
-    dplyr,
-    stringr, 
-    xml2,
-    rvest, 
-    stringi,
+    qdapRegex
+    dplyr
+    stringr
+    xml2
+    rvest
+    stringi
 Suggests: 
     testthat,
     knitr,
