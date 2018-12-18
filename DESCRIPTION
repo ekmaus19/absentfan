@@ -14,10 +14,10 @@ LazyData: true
 Imports:
     qdapRegex,
     dplyr,
-    stringr, 
+    stringr,
     xml2,
-    rvest, 
-    stringi,
+    rvest,
+    stringi
 Suggests: 
     testthat,
     knitr,
