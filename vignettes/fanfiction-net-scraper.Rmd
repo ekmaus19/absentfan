@@ -34,9 +34,7 @@ library(absentfan)
 
 ### 1. Scrape all of the entries in a particular fandom
 
-A for instance, a user might really love the movie *[Zoolander](https://www.imdb.com/title/tt0196229/)*, and want to see if people have written any stories on the protagonist, Derek. For this, `absentfan` offers the function `scrapeAllEntries`, which is the equivalent of going to https://www.fanfiction.net/movie/Zoolander/ and copying all of the listed entries with their associated information. `scrapeAllEntries` takes as parameters:
-  - a "story," or the title of a fandom (here, "Zoolander"), and
-  - a "type," or medium in which the story exists (here, "movie")
+A for instance, a user might really love the movie *[Zoolander](https://www.imdb.com/title/tt0196229/)*, and want to see if people have written any stories on the protagonist, Derek. For this, `absentfan` offers the function `scrapeAllEntries`, which is the equivalent of going to https://www.fanfiction.net/movie/Zoolander/ and copying all of the listed entries with their associated information. `scrapeAllEntries` takes as parameters a "story," or the title of a fandom (here, "Zoolander"), and a "type," or medium in which the story exists (here, "movie")
   
 Note that in accordance with the fanfiction.net terms of use, the scraper works as "human speed;" that is, each page is scraped at the rate of one second per page. 
 
@@ -64,10 +62,7 @@ zool
 
 Another for instance; a user is interested in tracking a particular fanfiction written about the play *[Almost, Maine](https://stageagent.com/shows/play/4385/almost-maine)*. They have read the story called **[Kiss](https://www.fanfiction.net/s/11790579/1/Kiss)**, and are looking for the raw text to be able to track most frequent terms, run LDA, and see whether any insight can be drawn from the structure of this particular narrative.
 
-The `absentfan` package offers the `getFullStory` function, which again takes as parameters:
-  - a "story," or the fandom in question
-  - a "type," or medium the story is published in, and 
-  - the "title" of the particular fanfiction entry the user desires.
+The `absentfan` package offers the `getFullStory` function, which again takes as parameters a "story," or the fandom in question; a "type," or medium the story is published in; and the "title" of the particular fanfiction entry the user desires.
   
 The resulting function generates a data frame with two columns containing all of the textual chapter information of a particular fanfiction. One column contains the raw text of an entry; another tracks the chapter assignment to that text entry, if applicable.
 
@@ -87,7 +82,7 @@ storyPrint("Steven Universe", "cartoon", "Gem Funeral")
 ## Maintaining the Scraper
 ### Update Repository of Story Tags
 
-The `absentfan` package uses a pre-scraped list of href tags from the fanfiction.net media pages to get information about stories or the stories themselves. If the user feels that the fandom they are looking for is missing due to it being very recent (after 2018), they may use the \code{updateTypeMedia} function to update the overall list of fandoms available for scraping with this package.
+The `absentfan` package uses a pre-scraped list of href tags from the fanfiction.net media pages to get information about stories or the stories themselves. If the user feels that the fandom they are looking for is missing due to it being very recent (after 2018), they may use the `updateTypeMedia` function to update the overall list of fandoms available for scraping with this package.
 
 ```{r, eval=F}
 typeMedia <- updateTypeMedia()
