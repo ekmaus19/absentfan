@@ -72,7 +72,7 @@
       <h1>absentfan</h1>
                         <h4 class="author">Elizaveta Kravchenko and Griffin Barich</h4>
             
-            <h4 class="date">2018-12-13</h4>
+            <h4 class="date">2018-12-19</h4>
       
       
       <div class="hidden name"><code>fanfiction-net-scraper.Rmd</code></div>
@@ -81,8 +81,8 @@
 
     
     
-<p><code>absetfan</code> is a comprehensive web scraping tool for retrieval of information from the site fanfiction.net. “Fanfiction” is a storyform where fans of a particular “fandom,” or narrative from one of several media types (ex, books, movies, comics, etc), create written pieces using details from those original narratives. These details can be as specific or general as the fan ordains; the stories could involve the same setting as the original fandom, the same world conditions (ex, include magic), the same or similar characters, and any permutation of associated characteristics. Writers range from novice to highly skilled.</p>
-<p>The authors of this package see fanfiction.net as a potentially rich and underutilized text data source; operating since 1998 with a community of over 10 million registered users, the site hosts a substantial volume of curious and slightly unorthodox information (<a href="https://en.wikipedia.org/wiki/FanFiction.Net">link</a>). While its competitor, Archive of Our Own, has dethroned fanfiction.net as the primary fanfiction resource, access to individual fandom story listings may still offer insight to current usages of the storytelling platform, as well as shifting popularities of different narratives (through exploration of reviews, post numbers, follows, favorites, and so on). Working with the raw data presented within story chapters could facilitate practice in text mining, or reveal patterns in narrative construction. Tracking such patterns could offer analysis relevant to a greater cultural context, as narratives like <em>50 Shades of Gray</em> originally got their beginnings from fan written work (in this case, a <em>Twilight</em> fanfiction).</p>
+<p><code>absetfan</code> is a comprehensive web scraping tool for retrieval of information from the site <a href="fanfiction.net" class="uri">fanfiction.net</a>. “Fanfiction” is a storyform where fans of a particular “fandom,” or narrative from one of several media types (ex, books, movies, comics, etc), create written pieces using details from those original narratives. These details can be as specific or general as the fan ordains; the stories could involve the same setting as the original fandom, the same world conditions (ex, include magic), the same or similar characters, and any permutation of associated characteristics. Writers range from novice to highly skilled.</p>
+<p>The authors of this package see fanfiction.net as a potentially rich and underutilized text data source; operating since 1998 with a community of over 10 million registered users, the site hosts a substantial volume of curious and slightly unorthodox information (<a href="https://en.wikipedia.org/wiki/FanFiction.Net">link</a>). Access to individual fandom story listings may offer insight to current usages of the storytelling platform, as well as shifting popularities of different narratives (through exploration of reviews, post numbers, follows, favorites, and so on). Working with the raw data presented within story chapters could facilitate practice in text mining, or reveal patterns in narrative construction. Tracking such patterns could offer analysis relevant to a greater cultural context, as narratives like <em>50 Shades of Gray</em> originally got their beginnings from fan written work (in this case, a <em>Twilight</em> fanfiction).</p>
 <p>Overall, <code>absentfan</code> may offer access to a plethora of user queried data excellent for use in exploring R base functions and text mining techniques.</p>
 <p>For more on fanfiction, we recommend you look here(<a href="https://www.newyorker.com/books/page-turner/the-promise-and-potential-of-fan-fiction">via</a>)</p>
 <div id="featured-functionality" class="section level2">
@@ -92,7 +92,8 @@
 <div id="scrape-all-of-the-entries-in-a-particular-fandom" class="section level3">
 <h3 class="hasAnchor">
 <a href="#scrape-all-of-the-entries-in-a-particular-fandom" class="anchor"></a>1. Scrape all of the entries in a particular fandom</h3>
-<p>The equivalent of going to <a href="https://www.fanfiction.net/movie/Zoolander/" class="uri">https://www.fanfiction.net/movie/Zoolander/</a> and copying all of the listed entries with their associated information. In accordance with the fanfiction.net terms of use, the scraper works as “human speed;” that is, each page is scraped at the rate of one second per page.</p>
+<p>A for instance, a user might really love the movie <em><a href="https://www.imdb.com/title/tt0196229/">Zoolander</a></em>, and want to see if people have written any stories on the protagonist, Derek. For this, <code>absentfan</code> offers the function <code>scrapeAllEntries</code>, which is the equivalent of going to <a href="https://www.fanfiction.net/movie/Zoolander/" class="uri">https://www.fanfiction.net/movie/Zoolander/</a> and copying all of the listed entries with their associated information. <code>scrapeAllEntries</code> takes as parameters a “story,” or the title of a fandom (here, “Zoolander”), and a “type,” or medium in which the story exists (here, “movie”)</p>
+<p>Note that in accordance with the fanfiction.net terms of use, the scraper works as “human speed;” that is, each page is scraped at the rate of one second per page.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">zool &lt;-<span class="st"> </span><span class="kw"><a href="../reference/scrapeAllEntries.html">scrapeAllEntries</a></span>(<span class="st">"Zoolander"</span>, <span class="st">"movie"</span>)
 <span class="kw">head</span>(zool)
 <span class="co">#&gt;                            name         author</span>
@@ -123,8 +124,13 @@
 <span class="co">#&gt; 4      NA         NA</span>
 <span class="co">#&gt; 5      NA   8/3/2012</span>
 <span class="co">#&gt; 6      NA 10/23/2011</span></code></pre></div>
+<p>Now, the user can see how many stories are available on fanfiction.net about <em>Zoolander</em>, their summaries, as well as their ratings, follows, and update information. For personal use, this is a great snapshot for searching through available fanfics. For larger data sets, this data frame can offer a comprehensive look at what kinds of narratives are being written in a particular fandom (perhaps through using summaries as documents in textual analysis), as well as when people were interacting with these stories (through publish and follow/review data) and how big this community really is (through tracking how many unique creators appear in the data).</p>
+<div id="additional-functionality" class="section level4">
+<h4 class="hasAnchor">
+<a href="#additional-functionality" class="anchor"></a>Additional functionality</h4>
 <p>Certain fandoms have a very large amount of associated fiction; at the point of package creation, <em>Harry Potter</em> leads with 799K entries, and <em>Star Wars</em> with 50.1K. Due to the aforementioned terms, this may cause scraping of larger fandoms to take a much longer time.</p>
 <p>The <code>max.entries</code> feature of this function allows for a specific number of entries to be scraped, resulting in a data frame of a limited number of rows. Users then can access a subset of the information posted on the fanfiction.net site without having to needlessly wait.</p>
+<p>Simply specify the total number of entries to be scraped to the parameter <code>max.entries</code>:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">zool &lt;-<span class="st"> </span><span class="kw"><a href="../reference/scrapeAllEntries.html">scrapeAllEntries</a></span>(<span class="st">"Zoolander"</span>, <span class="st">"movie"</span>, <span class="dt">max.entries=</span><span class="dv">3</span>)
 zool
 <span class="co">#&gt;                          name   author</span>
@@ -140,10 +146,13 @@ zool
 <span class="co">#&gt; 2 Romance/Drama        1   463       2    1    &lt;NA&gt;      NA 1/24/2013</span>
 <span class="co">#&gt; 3 Humor/Romance        1   461       2 &lt;NA&gt;    &lt;NA&gt;      NA 1/24/2013</span></code></pre></div>
 </div>
+</div>
 <div id="scrape-all-of-the-chapter-information-to-a-data-frame" class="section level3">
 <h3 class="hasAnchor">
 <a href="#scrape-all-of-the-chapter-information-to-a-data-frame" class="anchor"></a>2. Scrape all of the chapter information to a data frame</h3>
-<p>The resulting function generates a data frame with all of the textual chapter information of a particular fanfiction. A column tracks the chapter by chapter break down, if necessary.</p>
+<p>Another for instance; a user is interested in tracking a particular fanfiction written about the play <em><a href="https://stageagent.com/shows/play/4385/almost-maine">Almost, Maine</a></em>. They have read the story called <strong><a href="https://www.fanfiction.net/s/11790579/1/Kiss">Kiss</a></strong>, and are looking for the raw text to be able to track most frequent terms, run LDA, and see whether any insight can be drawn from the structure of this particular narrative.</p>
+<p>The <code>absentfan</code> package offers the <code>getFullStory</code> function, which again takes as parameters a “story,” or the fandom in question; a “type,” or medium the story is published in; and the “title” of the particular fanfiction entry the user desires.</p>
+<p>The resulting function generates a data frame with two columns containing all of the textual chapter information of a particular fanfiction. One column contains the raw text of an entry; another tracks the chapter assignment to that text entry, if applicable.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">almost &lt;-<span class="st"> </span><span class="kw"><a href="../reference/getFullStory.html">getFullStory</a></span>(<span class="st">"Almost, Maine"</span>, <span class="st">"play"</span>, <span class="st">"Kiss"</span>)
 <span class="kw">head</span>(almost)
 <span class="co">#&gt;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                text</span>
@@ -164,8 +173,18 @@ zool
 <div id="create-a-readable-html-output-of-the-scraped-narrative" class="section level3">
 <h3 class="hasAnchor">
 <a href="#create-a-readable-html-output-of-the-scraped-narrative" class="anchor"></a>3. Create a readable html output of the scraped narrative</h3>
-<p>For users interested in simply reading the stories, there is an option to generate an html output of the scraped narrative. Simply call the story the same way as for the chapter scraper, but within the print function.</p>
+<p>For users interested in simply reading the stories, there is an option to generate an html output of the scraped narrative. Simply call the story using the parameters in the format of the chapter scraper (<code>getFullStory</code>), but within a <code>storyPrint</code> function call.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/storyPrint.html">storyPrint</a></span>(<span class="st">"Steven Universe"</span>, <span class="st">"cartoon"</span>, <span class="st">"Gem Funeral"</span>)</code></pre></div>
+</div>
+</div>
+<div id="maintaining-the-scraper" class="section level2">
+<h2 class="hasAnchor">
+<a href="#maintaining-the-scraper" class="anchor"></a>Maintaining the Scraper</h2>
+<div id="update-repository-of-story-tags" class="section level3">
+<h3 class="hasAnchor">
+<a href="#update-repository-of-story-tags" class="anchor"></a>Update Repository of Story Tags</h3>
+<p>The <code>absentfan</code> package uses a pre-scraped list of href tags from the fanfiction.net media pages to get information about stories or the stories themselves. If the user feels that the fandom they are looking for is missing due to it being very recent (after 2018), they may use the <code>updateTypeMedia</code> function to update the overall list of fandoms available for scraping with this package.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">typeMedia &lt;-<span class="st"> </span><span class="kw"><a href="../reference/updateTypeMedia.html">updateTypeMedia</a></span>()</code></pre></div>
 </div>
 </div>
   </div>
@@ -176,6 +195,7 @@ zool
 <a href="#tocnav" class="anchor"></a>Contents</h2>
       <ul class="nav nav-pills nav-stacked">
 <li><a href="#featured-functionality">Featured Functionality</a></li>
+      <li><a href="#maintaining-the-scraper">Maintaining the Scraper</a></li>
       </ul>
 </div>
       </div>
