@@ -1,0 +1,94 @@
+---
+title: "absentfan"
+author: "Elizaveta Kravchenko and Griffin Barich"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  warning=F,
+  message=F
+)
+```
+
+`absetfan` is a comprehensive web scraping tool for retrieval of information from the site [fanfiction.net](fanfiction.net). "Fanfiction" is a storyform where fans of a particular "fandom," or narrative from one of several media types (ex, books, movies, comics, etc), create written pieces using details from those original narratives. These details can be as specific or general as the fan ordains; the stories could involve the same setting as the original fandom, the same world conditions (ex, include magic), the same or similar characters, and any permutation of associated characteristics. Writers range from novice to highly skilled. 
+
+The authors of this package see fanfiction.net as a potentially rich and underutilized text data source; operating since 1998 with a community of over 10 million registered users, the site hosts a substantial volume of curious and slightly unorthodox information ([link](https://en.wikipedia.org/wiki/FanFiction.Net)). Access to individual fandom story listings may offer insight to current usages of the storytelling platform, as well as shifting popularities of different narratives (through exploration of reviews, post numbers, follows, favorites, and so on). Working with the raw data presented within story chapters could facilitate practice in text mining, or reveal patterns in narrative construction. Tracking such patterns could offer analysis relevant to a greater cultural context, as narratives like *50 Shades of Gray* originally got their beginnings from fan written work (in this case, a *Twilight* fanfiction). 
+
+Overall, `absentfan` may offer access to a plethora of user queried data excellent for use in exploring R base functions and text mining techniques. 
+
+For more on fanfiction, we recommend you look here([via](https://www.newyorker.com/books/page-turner/the-promise-and-potential-of-fan-fiction))
+
+## Featured Functionality
+
+```{r}
+library(absentfan)
+```
+
+### 1. Scrape all of the entries in a particular fandom
+
+A for instance, a user might really love the movie *[Zoolander](https://www.imdb.com/title/tt0196229/)*, and want to see if people have written any stories on the protagonist, Derek. For this, `absentfan` offers the function `scrapeAllEntries`, which is the equivalent of going to https://www.fanfiction.net/movie/Zoolander/ and copying all of the listed entries with their associated information. `scrapeAllEntries` takes as parameters:
+  - a "story," or the title of a fandom (here, "Zoolander"), and
+  - a "type," or medium in which the story exists (here, "movie")
+  
+Note that in accordance with the fanfiction.net terms of use, the scraper works as "human speed;" that is, each page is scraped at the rate of one second per page. 
+
+```{r}
+zool <- scrapeAllEntries("Zoolander", "movie")
+head(zool)
+```
+
+Now, the user can see how many stories are available on fanfiction.net about *Zoolander*, their summaries, as well as their ratings, follows, and update information. For personal use, this is a great snapshot for searching through available fanfics. For larger data sets, this data frame can offer a comprehensive look at what kinds of narratives are being written in a particular fandom (perhaps through using summaries as documents in textual analysis), as well as when people were interacting with these stories (through publish and follow/review data) and how big this community really is (through tracking how many unique creators appear in the data). 
+
+#### Additional functionality
+
+Certain fandoms have a very large amount of associated fiction; at the point of package creation, *Harry Potter* leads with 799K entries, and *Star Wars* with 50.1K. Due to the aforementioned terms, this may cause scraping of larger fandoms to take a much longer time. 
+
+The `max.entries` feature of this function allows for a specific number of entries to be scraped, resulting in a data frame of a limited number of rows. Users then can access a subset of the information posted on the fanfiction.net site without having to needlessly wait. 
+
+Simply specify the total number of entries to be scraped to the parameter `max.entries`:
+
+```{r}
+zool <- scrapeAllEntries("Zoolander", "movie", max.entries=3)
+zool
+```
+
+### 2. Scrape all of the chapter information to a data frame
+
+Another for instance; a user is interested in tracking a particular fanfiction written about the play *[Almost, Maine](https://stageagent.com/shows/play/4385/almost-maine)*. They have read the story called **[Kiss](https://www.fanfiction.net/s/11790579/1/Kiss)**, and are looking for the raw text to be able to track most frequent terms, run LDA, and see whether any insight can be drawn from the structure of this particular narrative.
+
+The `absentfan` package offers the `getFullStory` function, which again takes as parameters:
+  - a "story," or the fandom in question
+  - a "type," or medium the story is published in, and 
+  - the "title" of the particular fanfiction entry the user desires.
+  
+The resulting function generates a data frame with two columns containing all of the textual chapter information of a particular fanfiction. One column contains the raw text of an entry; another tracks the chapter assignment to that text entry, if applicable.
+
+```{r}
+almost <- getFullStory("Almost, Maine", "play", "Kiss")
+head(almost)
+```
+
+### 3. Create a readable html output of the scraped narrative
+
+For users interested in simply reading the stories, there is an option to generate an html output of the scraped narrative. Simply call the story using the parameters in the format of the chapter scraper (`getFullStory`), but within a `storyPrint` function call. 
+
+```{r, eval=F}
+storyPrint("Steven Universe", "cartoon", "Gem Funeral")
+```
+
+## Maintaining the Scraper
+### Update Repository of Story Tags
+
+The `absentfan` package uses a pre-scraped list of href tags from the fanfiction.net media pages to get information about stories or the stories themselves. If the user feels that the fandom they are looking for is missing due to it being very recent (after 2018), they may use the \code{updateTypeMedia} function to update the overall list of fandoms available for scraping with this package.
+
+```{r, eval=F}
+typeMedia <- updateTypeMedia()
+```
