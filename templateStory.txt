@@ -1,0 +1,22 @@
+
+```{r setup, include = F}
+library(knitr)
+opts_chunk$set(comment=NA)
+opts_chunk$set(results='asis')
+```
+
+```{r, warning=F, message=F, echo=F}
+library(dplyr)
+library(stringr)
+library(absentfan)
+test <- getFullStory(xxxStory,xxxType, xxxTitle)
+for(i in seq_along(unique(test$chapter))) {
+  cat(paste("\n","\n","\n"))
+  cat(paste0("### ", "Chapter ", i))
+  cat(paste("\n","\n","\n"))
+  chapterPrint <- filter(test, chapter==i)
+  cat(paste("\n",as.character(chapterPrint$text),"\n"))
+}
+
+```
+
