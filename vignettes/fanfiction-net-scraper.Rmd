@@ -24,7 +24,7 @@ The authors of this package see fanfiction.net as a potentially rich and underut
 
 Overall, `absentfan` may offer access to a plethora of user queried data excellent for use in exploring R base functions and text mining techniques. 
 
-For more on fanfiction, we recommend you look here([via](https://www.newyorker.com/books/page-turner/the-promise-and-potential-of-fan-fiction))
+For more on fanfiction, we recommend you look here ([via](https://www.newyorker.com/books/page-turner/the-promise-and-potential-of-fan-fiction)).
 
 ## Featured Functionality
 
@@ -34,7 +34,7 @@ library(absentfan)
 
 ### 1. Scrape all of the entries in a particular fandom
 
-A for instance, a user might really love the movie *[Zoolander](https://www.imdb.com/title/tt0196229/)*, and want to see if people have written any stories on the protagonist, Derek. For this, `absentfan` offers the function `scrapeAllEntries`, which is the equivalent of going to https://www.fanfiction.net/movie/Zoolander/ and copying all of the listed entries with their associated information. `scrapeAllEntries` takes as parameters a "story," or the title of a fandom (here, "Zoolander"), and a "type," or medium in which the story exists (here, "movie")
+For instance, a user might really love the movie *[Zoolander](https://www.imdb.com/title/tt0196229/)*, and want to see if people have written any stories on the protagonist, Derek. For this, `absentfan` offers the function `scrapeAllEntries`, which is the equivalent of going to https://www.fanfiction.net/movie/Zoolander/ and copying all of the listed entries with their associated information. `scrapeAllEntries` takes as parameters a "story," or the title of a fandom (here, "Zoolander"), and a "type," or medium in which the story exists (here, "movie").
   
 Note that in accordance with the fanfiction.net terms of use, the scraper works as "human speed;" that is, each page is scraped at the rate of one second per page. 
 
