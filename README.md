@@ -1,5 +1,5 @@
 # absentfan
-Fanfiction web scraper for Wesleyan University Advanced R Course
+Fanfiction.net web scraper packages for Wesleyan University Advanced R Course
 
 ### Package installation
 To download this package use the following code.
